@@ -1,10 +1,10 @@
 import java.util.*;
 public class Player {
     private int point;
-    private String call;
+
     public Player()
     {
-
+        
     }
 
     public int getPoints()
