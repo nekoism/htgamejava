@@ -18,8 +18,8 @@ public class CoinToss {
 
             System.out.println();
 
-            c1 = new Coin();
-
+            c1.toss();
+            
             System.out.println("What is your call player 1?");
             String p1Inp = in.nextLine();
 
@@ -48,7 +48,7 @@ public class CoinToss {
             System.out.println("Player 1 points: " + p1.getPoints() + " ||||| " + "Player 2 points: " + p2.getPoints());
             System.out.println();
 
-            c1 = new Coin();
+            c1.toss();
         }
         
         if(p1.getPoints()==5)
