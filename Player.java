@@ -4,7 +4,7 @@ public class Player {
 
     public Player()
     {
-        
+        System.out.println("amogus!!!!");
     }
 
     public int getPoints()
